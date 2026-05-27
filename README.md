@@ -1,6 +1,19 @@
-Serial port example
+Drift Test for TA-Slider 
 
-This folder contains a minimal Python example to open a serial port and send commands using `pyserial`.
+This repository contains a Python-based control and measurement system for actuator characterization.
+The script allows precise control of a power supply in the range of 1.5V to 8.5V in order to modify the actuator reference. It simultaneously measures the actuator position using a Mitutoyo digital micrometer (Digimatic interface).
+The project includes:
+
+Communication and control of the power supply
+Acquisition of position data from the Mitutoyo device via serial interface
+Support for Mitutoyo DMX drivers (included in the repository, compatible up to Windows 10)
+
+Additionally, the system enables:
+
+Long-cycle drift testing
+Detection and analysis of position drift over time
+
+This tool is intended for automated testing, validation, and long-term stability analysis of electromechanical actuators.
 
 Files:
 

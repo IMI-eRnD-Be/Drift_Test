@@ -1,4 +1,4 @@
-Drift Test for TA-Slider 
+# Drift Test for TA-Slider 
 
 This repository contains a Python-based control and measurement system for actuator characterization.
 The script allows precise control of a power supply in the range of 1.5V to 8.5V in order to modify the actuator reference. It simultaneously measures the actuator position using a Mitutoyo digital micrometer (Digimatic interface).
